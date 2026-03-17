@@ -1046,9 +1046,9 @@ it manages may be physical or virtual.
               <h:ol type='a'>
                 <h:li>Start-up and shut-down of the audit functions;</h:li>
                 <h:li>All auditable events for the [<h:i>not specified</h:i>] level of audit;
-                  <h:li>Specifically defined auditable events listed in <xref g="t-audit-mandatory"/></h:li>
+                  [<h:li>Specifically defined auditable events listed in <xref g="t-audit-mandatory"/></h:li>
                   
-                  [</h:li>
+                  </h:li>
                 <h:li><h:i>
                   <h:ul><h:li>Authentication events (Success/Failure);</h:li>
                     <h:li>Use of privileged/special rights events (Successful and unsuccessful security, audit, and configuration changes);</h:li>
@@ -1097,9 +1097,9 @@ it manages may be physical or virtual.
           <f-element id="fel-audit-content">
             <title> The TSF shall record within the audit data at least the following information:
               <h:ol type='a'>
-                <h:li>Date and time of the event, type of event, subject identity (if applicable),
+                <h:li>Date and time of the auditable event, type of event, subject identity (if applicable),
                   and the outcome (success or failure) of the event; </h:li>
-                <h:li>For each audit event type, based on the auditable event
+                <h:li>For each auditable event type, based on the auditable event
                   definitions of the functional components included in the PP, PP-Module, functional
                   package, or ST,
                   <assignable>other audit relevant information</assignable>
